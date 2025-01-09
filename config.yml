@@ -41,7 +41,7 @@ params:
       category: Services
     - name: SIP Trunk
       category: Services
-    - name: Partner
+    - name: Partner Portal
       category: Portals
       description: https://portal.eisgroup.it/
   dateFormat: January 2, 2006 at 3:04 PM
@@ -68,7 +68,8 @@ params:
     - name: Portals
       closed: true
     - name: Uncategorized
-  description: We continuously monitor the status of our services and if there are
+  description:
+    We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.
   enableCustomHTML: true
   useLargeHeaderDesign: false
