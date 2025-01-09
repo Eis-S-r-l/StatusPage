@@ -41,7 +41,7 @@ params:
       category: Services
     - name: SIP Trunk
       category: Services
-    - name: Partner Portal
+    - name: Partner
       category: Portals
       description: https://portal.eisgroup.it/
   dateFormat: January 2, 2006 at 3:04 PM
