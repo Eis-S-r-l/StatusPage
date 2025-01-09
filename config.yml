@@ -31,6 +31,9 @@ outputFormats:
     mediaType: image/svg+xml
 enableGitInfo: true
 params:
+  uptimeHistogramEnabled: true
+  uptimeHistogramDays: 30
+  uptimeHistogramWidth: 1000
   skipSeconds: false
   useRelativeTime: true
   disableDarkMode: false
