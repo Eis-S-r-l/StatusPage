@@ -64,8 +64,9 @@ params:
   ok: "#008000"
   categories:
     - name: Services
-      closed: true
+      closed: false
     - name: Portals
+      closed: true
     - name: Uncategorized
   description: We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.
