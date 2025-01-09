@@ -13,7 +13,7 @@ local_backend: true
 
 backend:
   name: github
-   repo: LookedPath/StatusPage
+  repo: LookedPath/StatusPage
 media_folder: "static/img"
 public_folder: "/img"
 site_url: ../
