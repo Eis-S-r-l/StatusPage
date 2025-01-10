@@ -44,6 +44,9 @@ params:
     - name: Partner Portal
       category: Portals
       description: https://portal.eisgroup.it/
+    - name: Wiki
+      category: Portals
+      description: https://wiki.teameis.it
   dateFormat: January 2, 2006 at 3:04 PM
   brand: "#0a0c0f"
   enableLastMod: true
@@ -66,10 +69,8 @@ params:
     - name: Services
       closed: false
     - name: Portals
-      closed: true
-    - name: Uncategorized
-  description:
-    We continuously monitor the status of our services and if there are
+      closed: false
+  description: We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.
   enableCustomHTML: true
   useLargeHeaderDesign: false
