@@ -5,7 +5,7 @@ date: 2025-01-27T23:30:00.000Z
 resolved: false
 draft: false
 informational: true
-pin: true
+pin: false
 resolvedWhen: 2025-01-28T01:00:00.000Z
 affected:
   - SIP-Trunk
