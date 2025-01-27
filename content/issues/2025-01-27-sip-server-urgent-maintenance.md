@@ -8,8 +8,8 @@ informational: true
 pin: true
 resolvedWhen: 2025-01-28T01:00:00.000Z
 affected:
-  - sip-trunk
-  - webex-calling
+  - SIP-Trunk
+  - Webex-Calling
 severity: notice
 ---
 *Tonight we will perform an urgent maintenace on the SIP Server to fix internal call routing for EIS for Carrier customers and to increase the antiflood limits to accomodate higher traffic customers.*
