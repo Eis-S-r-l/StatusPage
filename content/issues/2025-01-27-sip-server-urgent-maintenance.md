@@ -2,7 +2,7 @@
 section: issue
 title: SIP Server Urgent Maintenance
 date: 2025-01-27T23:30:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: true
 pin: false
