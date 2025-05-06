@@ -8,6 +8,8 @@ informational: true
 pin: false
 affected:
   - SIP-Trunk
+  - Partner-Portal
+  - Wiki
 severity: notice
 ---
 Please be advised that we have scheduled essential maintenance to upgrade the network infrastructure in our Data Center 1 (DC1). This work is necessary to enhance performance and reliability.
