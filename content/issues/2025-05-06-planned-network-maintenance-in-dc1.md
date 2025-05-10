@@ -6,6 +6,7 @@ resolved: true
 draft: false
 informational: true
 pin: false
+resolvedWhen: 2025-05-09T23:56:00.000Z
 affected:
   - SIP-Trunk
   - Partner-Portal
