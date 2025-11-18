@@ -17,3 +17,16 @@ Cloudflare has investigated the issue and is deploying a fix, recovery is underw
 More info on their [statuspage.](https://www.cloudflarestatus.com/incidents/8gmgl950y3h7)
 
 We will advise once the issue has been resolved.
+
+
+
+___
+
+
+
+
+
+#### UPDATE 15:44 CET 18/11/2025:
+
+Services have started to come back online.\
+We are still keeping the situation monitored.
