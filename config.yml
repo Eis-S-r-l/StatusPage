@@ -47,6 +47,8 @@ params:
     - name: Wiki
       category: Portals
       description: https://wiki.teameis.it
+    - category: Services
+      name: Circuits
   dateFormat: January 2, 2006 at 3:04 PM
   brand: "#0a0c0f"
   enableLastMod: true
