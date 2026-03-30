@@ -2,10 +2,10 @@
 section: issue
 title: Planned Maintenance to BNG
 date: 2026-03-25T23:00:00.000+01:00
-resolved: false
+resolved: true
 draft: false
 informational: true
-pin: true
+pin: false
 resolvedWhen: 2026-03-26T02:00:00.000+01:00
 affected:
   - circuits
