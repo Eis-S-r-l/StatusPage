@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "MXP Infrastracture maintenance",
+  "body": "\u003ch4 id=\"scheduled-maintenance\"\u003e\u003cstrong\u003eScheduled Maintenance\u003c/strong\u003e\u003c/h4\u003e\n\u003cp\u003eSIP Traffic Routing to Secondary Node\u003c/p\u003e\n\u003ch4 id=\"maintenance-window\"\u003e\u003cstrong\u003eMaintenance Window\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eStart:\u003c/strong\u003e Thursday, April 2 at 21:30\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eEnd:\u003c/strong\u003e Friday, April 3 at 02:30 AM\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4 id=\"overview\"\u003e\u003cstrong\u003eOverview\u003c/strong\u003e\u003c/h4\u003e\n\u003cp\u003eDuring this scheduled maintenance window, we will be shifting our SIP traffic to our secondary node, which operates on the IP address \u003ccode\u003e194.76.135.16\u003c/code\u003e.\u003c/p\u003e\n\u003ch4 id=\"action-required\"\u003e\u003cstrong\u003eAction Required\u003c/strong\u003e\u003c/h4\u003e\n\u003cp\u003eTo prevent any disruption to your service, please verify your firewall configurations. As outlined in our Wiki documentation, the following subnet must be added to your allowed network list (whitelist):\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eRequired Subnet:\u003c/strong\u003e \u003ccode\u003e194.76.135.0/24\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4 id=\"expected-impact\"\u003e\u003cstrong\u003eExpected Impact\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eNo Impact:\u003c/strong\u003e Customers using the Webex Calling service, as well as customers who have already whitelisted the \u003ccode\u003e194.76.135.0/24\u003c/code\u003e subnet, will not experience any service disruption.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eService Interruption:\u003c/strong\u003e Customers who have \u003cem\u003e\u003cstrong\u003enot\u003c/strong\u003e\u003c/em\u003e whitelisted the required subnet prior to the maintenance window will experience a drop in SIP connectivity once the traffic shift occurs.\u003c/li\u003e\n\u003c/ul\u003e\n",
+  "createdAt": "2026-04-02 21:30:00 +0200 CEST",
+  "lastMod": "2026-03-30 18:40:11 +0200 CEST",
+  "permalink": "https://status.eis.it/issues/2026-04-02-mxp-infrastracture-maintenance/",
+  "severity": "notice",
+  "resolved": false,
+  "informational": true,
+  "resolvedAt": "2026-04-03T02:30:00.000+02:00",
+  "affected": ["sip-trunk"],
+  "filename": "2026-04-02-mxp-infrastracture-maintenance.md"
+}

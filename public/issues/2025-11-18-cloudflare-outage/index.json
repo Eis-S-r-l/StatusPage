@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Cloudflare outage",
+  "body": "\u003cp\u003e\u003cem\u003eA Cloudflare outage is affecting our web services making them unreachable.\u003c/em\u003e\u003cbr\u003e\n\u003cbr\u003e\nCloudflare has investigated the issue and is deploying a fix, recovery is underway.\u003cbr\u003e\nMore info on their \u003ca href=\"https://www.cloudflarestatus.com/incidents/8gmgl950y3h7\"\u003estatuspage.\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eWe will advise once the issue has been resolved.\u003c/p\u003e\n\u003chr\u003e\n\u003ch4 id=\"update-1544-cet-18112025\"\u003eUPDATE 15:44 CET 18/11/2025:\u003c/h4\u003e\n\u003cp\u003eServices have started to come back online.\u003cbr\u003e\nWe are still keeping the situation monitored.\u003c/p\u003e\n\u003chr\u003e\n\u003ch4 id=\"update-1737-cet-18112025\"\u003eUPDATE 17:37 CET 18/11/2025:\u003c/h4\u003e\n\u003cp\u003eServices have been online for almost two hours.\u003c/p\u003e\n\u003cp\u003eWe consider the outage resolved but will keep monitoring.\u003c/p\u003e\n",
+  "createdAt": "2025-11-18 12:00:00 +0100 CET",
+  "lastMod": "2025-11-18 17:37:50 +0100 CET",
+  "permalink": "https://status.eis.it/issues/2025-11-18-cloudflare-outage/",
+  "severity": "down",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2025-11-18T17:00:00.000+01:00",
+  "affected": ["partner-portal", "wiki"],
+  "filename": "2025-11-18-cloudflare-outage.md"
+}

@@ -1,0 +1,83 @@
+{
+  "is": "system",
+  "title": "Sip-Trunk",
+  "permalink": "https://status.eis.it/affected/sip-trunk/",
+  "status": "notice", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "MXP Infrastracture maintenance",
+        "createdAt": "2026-04-02 21:30:00 +0200 CEST",
+        "lastMod": "2026-03-30 18:40:11 +0200 CEST",
+        "permalink": "https://status.eis.it/issues/2026-04-02-mxp-infrastracture-maintenance/",
+        "severity": "notice",
+        "resolved": false,
+        "informational": true,
+        "resolvedAt": "2026-04-03T02:30:00.000+02:00",
+        "affected": ["sip-trunk"],
+        "filename": "2026-04-02-mxp-infrastracture-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Planned Network Maintenance in DC1",
+        "createdAt": "2025-05-09 22:00:00 +0000 UTC",
+        "lastMod": "2025-05-10 10:14:20 +0200 CEST",
+        "permalink": "https://status.eis.it/issues/2025-05-06-planned-network-maintenance-in-dc1/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": true,
+        "resolvedAt": "2025-05-09T23:56:00.000Z",
+        "affected": ["SIP-Trunk", "Partner-Portal", "Wiki"],
+        "filename": "2025-05-06-planned-network-maintenance-in-dc1.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "DSS Reachability Issues",
+        "createdAt": "2025-02-17 15:00:00 +0000 UTC",
+        "lastMod": "2025-02-17 20:37:59 +0100 CET",
+        "permalink": "https://status.eis.it/issues/2025-02-17-dropped-traffic-due-to-transit-provider/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-02-17T15:15:00.000Z",
+        "affected": ["SIP Trunk"],
+        "filename": "2025-02-17-dropped-traffic-due-to-transit-provider.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "SIP Server Urgent Maintenance",
+        "createdAt": "2025-01-27 23:30:00 +0000 UTC",
+        "lastMod": "2025-01-31 09:18:07 +0100 CET",
+        "permalink": "https://status.eis.it/issues/2025-01-27-sip-server-urgent-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": true,
+        "resolvedAt": "2025-01-28T01:00:00.000Z",
+        "affected": ["SIP-Trunk", "Webex-Calling"],
+        "filename": "2025-01-27-sip-server-urgent-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "DSS Call Routing Errors",
+        "createdAt": "2025-01-08 06:02:18.841 +0000 UTC",
+        "lastMod": "2025-01-09 11:06:06 +0000 +0000",
+        "permalink": "https://status.eis.it/issues/2025-01-09-dss-call-routing-errors/",
+        "severity": "down",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-01-08T08:05:18.848Z",
+        "affected": ["SIP-Trunk", "Webex-Calling"],
+        "filename": "2025-01-09-dss-call-routing-errors.md"
+      }
+    
+  ]
+}
+
+
+
+
+

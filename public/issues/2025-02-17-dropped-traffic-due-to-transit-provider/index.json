@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "DSS Reachability Issues",
+  "body": "\u003cp\u003eOne of our transit providers had an outage that caused some reachability issues for a small portion of customers.\u003cbr\u003e\nWe immediately disconnected the affected transit provider and reachability went back to normal.\u003c/p\u003e\n",
+  "createdAt": "2025-02-17 15:00:00 +0000 UTC",
+  "lastMod": "2025-02-17 20:37:59 +0100 CET",
+  "permalink": "https://status.eis.it/issues/2025-02-17-dropped-traffic-due-to-transit-provider/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2025-02-17T15:15:00.000Z",
+  "affected": ["SIP Trunk"],
+  "filename": "2025-02-17-dropped-traffic-due-to-transit-provider.md"
+}

@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "SIP Server Urgent Maintenance",
+  "body": "\u003cp\u003e\u003cem\u003eTonight we will perform an urgent maintenace on the SIP Server to fix internal call routing for EIS for Carrier customers and to increase the antiflood limits to accomodate higher traffic customers.\u003c/em\u003e\u003c/p\u003e\n",
+  "createdAt": "2025-01-27 23:30:00 +0000 UTC",
+  "lastMod": "2025-01-31 09:18:07 +0100 CET",
+  "permalink": "https://status.eis.it/issues/2025-01-27-sip-server-urgent-maintenance/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": true,
+  "resolvedAt": "2025-01-28T01:00:00.000Z",
+  "affected": ["SIP-Trunk", "Webex-Calling"],
+  "filename": "2025-01-27-sip-server-urgent-maintenance.md"
+}

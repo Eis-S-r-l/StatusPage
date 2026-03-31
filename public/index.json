@@ -1,0 +1,91 @@
+{
+  "is": "index",
+  "cStateVersion": "6.0",
+  "apiVersion": "2.0",
+  "title": "EIS Status",
+  "languageCodeHTML": "en",
+  "languageCode": "en",
+  "baseURL": "https://status.eis.it/",
+  "description": "We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.",
+  "summaryStatus": "notice",
+  "categories": [
+      {
+        "name": "Services",
+        "hideTitle": false,
+        "closedByDefault": false
+      }
+    ,
+      {
+        "name": "Portals",
+        "hideTitle": false,
+        "closedByDefault": false
+      }
+    
+  ],
+  
+  
+  "pinnedIssues": [],
+  "systems": [
+    
+      {
+        "name": "Webex Calling",
+        "category": "Services",
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "SIP Trunk",
+        "category": "Services",
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Partner Portal",
+        "description": "https://portal.eisgroup.it/",
+        "category": "Portals",
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Wiki",
+        "description": "https://wiki.teameis.it",
+        "category": "Portals",
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Circuits",
+        "category": "Services",
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      }
+  ],
+  
+
+  "buildDate": "2026-03-31",
+  "buildTime": "08:50",
+  "buildTimezone": "CEST",
+  "colorBrand": "#0a0c0f",
+  "colorOk": "#008000",
+  "colorDisrupted": "#cc4400",
+  "colorDown": "#e60000",
+  "colorNotice": "#24478f",
+  "alwaysKeepBrandColor": "true",
+  "logo": "https://status.eis.it/img/eis_rgb-bn_h150.png",
+  "googleAnalytics": "UA-00000000-1"
+}

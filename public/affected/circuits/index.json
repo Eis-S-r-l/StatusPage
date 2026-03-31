@@ -1,0 +1,27 @@
+{
+  "is": "system",
+  "title": "Circuits",
+  "permalink": "https://status.eis.it/affected/circuits/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Planned Maintenance to BNG",
+        "createdAt": "2026-03-25 23:00:00 +0100 CET",
+        "lastMod": "2026-03-30 17:29:02 +0200 CEST",
+        "permalink": "https://status.eis.it/issues/2026-03-25-planned-maintenance-to-bng/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": true,
+        "resolvedAt": "2026-03-26T02:00:00.000+01:00",
+        "affected": ["circuits"],
+        "filename": "2026-03-25-planned-maintenance-to-bng.md"
+      }
+    
+  ]
+}
+
+
+
+
+

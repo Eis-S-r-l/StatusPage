@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.eis.it/"/>
+    <title>Webex-Calling on EIS Status</title>
+    <link>https://status.eis.it/affected/webex-calling/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2025-01-27T23:30:00+00:00</lastBuildDate>
+    <updated>2025-01-27T23:30:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.eis.it/affected/webex-calling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] SIP Server Urgent Maintenance</title>
+        <link>https://status.eis.it/issues/2025-01-27-sip-server-urgent-maintenance/</link>
+        <pubDate>Mon, 27 Jan 2025 23:30:00 +0000</pubDate>
+        <guid>https://status.eis.it/issues/2025-01-27-sip-server-urgent-maintenance/</guid>
+        <category>2025-01-28T01:00:00.000Z</category>
+        <description>&lt;p&gt;&lt;em&gt;Tonight we will perform an urgent maintenace on the SIP Server to fix internal call routing for EIS for Carrier customers and to increase the antiflood limits to accomodate higher traffic customers.&lt;/em&gt;&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Tonight we will perform an urgent maintenace on the SIP Server to fix internal call routing for EIS for Carrier customers and to increase the antiflood limits to accomodate higher traffic customers.&lt;/em&gt;&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] DSS Call Routing Errors</title>
+        <link>https://status.eis.it/issues/2025-01-09-dss-call-routing-errors/</link>
+        <pubDate>Wed, 08 Jan 2025 06:02:18 +0000</pubDate>
+        <guid>https://status.eis.it/issues/2025-01-09-dss-call-routing-errors/</guid>
+        <category>2025-01-08T08:05:18.848Z</category>
+        <description>&lt;p&gt;Call routing for all DSS services was broken this morning at 7:02 AM for SIP Trunks and Webex Calling.&lt;br&gt;
+&lt;br&gt;
+We have since identified the issue and have deployed a fix.&lt;br&gt;
+&lt;br&gt;
+As of 9:05 AM calls are being correctly routed but we are keeping the services monitored.&lt;/p&gt;
+&lt;h2 id=&#34;post-mortem&#34;&gt;P﻿ost Mortem&lt;/h2&gt;
+&lt;h4 id=&#34;affected-services&#34;&gt;&lt;strong&gt;Affected Services:&lt;/strong&gt;&lt;/h4&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Service&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Impact&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;DSS&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;MAJOR&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;affected-products&#34;&gt;&lt;strong&gt;Affected Products:&lt;/strong&gt;&lt;/h4&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Product&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Impact&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;SIP Trunk&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;MAJOR&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Webex Calling&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;PARTIAL&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;start-date-of-incident&#34;&gt;&lt;strong&gt;Start Date of Incident:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;08/01/2025 07:02 CET&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;Call routing for all DSS services was broken this morning at 7:02 AM for SIP Trunks and Webex Calling.&lt;br&gt;
+&lt;br&gt;
+We have since identified the issue and have deployed a fix.&lt;br&gt;
+&lt;br&gt;
+As of 9:05 AM calls are being correctly routed but we are keeping the services monitored.&lt;/p&gt;
+&lt;h2 id=&#34;post-mortem&#34;&gt;P﻿ost Mortem&lt;/h2&gt;
+&lt;h4 id=&#34;affected-services&#34;&gt;&lt;strong&gt;Affected Services:&lt;/strong&gt;&lt;/h4&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Service&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Impact&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;DSS&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;MAJOR&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;affected-products&#34;&gt;&lt;strong&gt;Affected Products:&lt;/strong&gt;&lt;/h4&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Product&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Impact&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;SIP Trunk&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;MAJOR&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Webex Calling&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;PARTIAL&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;start-date-of-incident&#34;&gt;&lt;strong&gt;Start Date of Incident:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;08/01/2025 07:02 CET&lt;/p&gt;
+&lt;h4 id=&#34;resolution-date-of-incident&#34;&gt;&lt;strong&gt;Resolution Date of Incident:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;08/01/2025 09:05 CET&lt;/p&gt;
+&lt;h4 id=&#34;summary-of-incident&#34;&gt;&lt;strong&gt;Summary of Incident:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Calls were not being correctly routed by the platform causing errors for both inbound and outbound calls.&lt;/p&gt;
+&lt;p&gt;The cause was a bug in a specific software version of the RTP Server that caused an OOM error.&lt;/p&gt;
+&lt;h4 id=&#34;mitigation-steps&#34;&gt;&lt;strong&gt;Mitigation Steps:&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Restarted the affected services&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;resolution-steps&#34;&gt;&lt;strong&gt;Resolution Steps:&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Update the RTP Server to permanently fix the issue&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;action-items&#34;&gt;&lt;strong&gt;Action Items:&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve our alerting system so that in the future we can take proactive action in similar cases&lt;/li&gt;
+&lt;li&gt;Change SIP Server responses to SIP OPTION so that in similar cases customer endpoints will be able to correctly fail-over to the secondary node&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

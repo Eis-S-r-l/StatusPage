@@ -3,7 +3,9 @@ buildFuture: true
 defaultContentLanguage: en
 languageCode: en
 baseURL: https://status.eis.it/
-theme: cstate
+module:
+  imports:
+    - path: github.com/cstate/cstate
 preserveTaxonomyNames: true
 taxonomies:
   affected: affected

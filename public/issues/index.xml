@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.eis.it/"/>
+    <title>Issues on EIS Status</title>
+    <link>https://status.eis.it/issues/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2026-04-02T21:30:00+02:00</lastBuildDate>
+    <updated>2026-04-02T21:30:00+02:00</updated>
+    
+    
+    
+      <atom:link href="https://status.eis.it/issues/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>MXP Infrastracture maintenance</title>
+        <link>https://status.eis.it/issues/2026-04-02-mxp-infrastracture-maintenance/</link>
+        <pubDate>Thu, 02 Apr 2026 21:30:00 +0200</pubDate>
+        <guid>https://status.eis.it/issues/2026-04-02-mxp-infrastracture-maintenance/</guid>
+        <category>2026-04-03T02:30:00.000&#43;02:00</category>
+        <description>&lt;h4 id=&#34;scheduled-maintenance&#34;&gt;&lt;strong&gt;Scheduled Maintenance&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;SIP Traffic Routing to Secondary Node&lt;/p&gt;
+&lt;h4 id=&#34;maintenance-window&#34;&gt;&lt;strong&gt;Maintenance Window&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Start:&lt;/strong&gt; Thursday, April 2 at 21:30&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;End:&lt;/strong&gt; Friday, April 3 at 02:30 AM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;During this scheduled maintenance window, we will be shifting our SIP traffic to our secondary node, which operates on the IP address &lt;code&gt;194.76.135.16&lt;/code&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;action-required&#34;&gt;&lt;strong&gt;Action Required&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;To prevent any disruption to your service, please verify your firewall configurations. As outlined in our Wiki documentation, the following subnet must be added to your allowed network list (whitelist):&lt;/p&gt;</description>
+        <content type="html">&lt;h4 id=&#34;scheduled-maintenance&#34;&gt;&lt;strong&gt;Scheduled Maintenance&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;SIP Traffic Routing to Secondary Node&lt;/p&gt;
+&lt;h4 id=&#34;maintenance-window&#34;&gt;&lt;strong&gt;Maintenance Window&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Start:&lt;/strong&gt; Thursday, April 2 at 21:30&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;End:&lt;/strong&gt; Friday, April 3 at 02:30 AM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;During this scheduled maintenance window, we will be shifting our SIP traffic to our secondary node, which operates on the IP address &lt;code&gt;194.76.135.16&lt;/code&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;action-required&#34;&gt;&lt;strong&gt;Action Required&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;To prevent any disruption to your service, please verify your firewall configurations. As outlined in our Wiki documentation, the following subnet must be added to your allowed network list (whitelist):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Required Subnet:&lt;/strong&gt; &lt;code&gt;194.76.135.0/24&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;expected-impact&#34;&gt;&lt;strong&gt;Expected Impact&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;No Impact:&lt;/strong&gt; Customers using the Webex Calling service, as well as customers who have already whitelisted the &lt;code&gt;194.76.135.0/24&lt;/code&gt; subnet, will not experience any service disruption.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service Interruption:&lt;/strong&gt; Customers who have &lt;em&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/em&gt; whitelisted the required subnet prior to the maintenance window will experience a drop in SIP connectivity once the traffic shift occurs.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Planned Maintenance to BNG</title>
+        <link>https://status.eis.it/issues/2026-03-25-planned-maintenance-to-bng/</link>
+        <pubDate>Wed, 25 Mar 2026 23:00:00 +0100</pubDate>
+        <guid>https://status.eis.it/issues/2026-03-25-planned-maintenance-to-bng/</guid>
+        <category>2026-03-26T02:00:00.000&#43;01:00</category>
+        <description>&lt;p&gt;We will be performing planned updates on our two Broadband Network Gateway (BNG) routers to ensure continued network stability and performance.&lt;/p&gt;
+&lt;h3 id=&#34;expected-impact&#34;&gt;Expected Impact&lt;/h3&gt;
+&lt;p&gt;To prevent downtime, these updates will be performed sequentially—meaning we will only update one router at a time. Because of this redundancy, the overall impact on service will be minimal.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brief Reconnection: If your equipment is actively connected to the router being updated, your session will briefly drop.&lt;/li&gt;
+&lt;li&gt;Automatic Failover: Your modem or router will automatically re-establish its PPPoE session with our secondary, active router.&lt;/li&gt;
+&lt;li&gt;No Action Needed: You do not need to make any configuration changes or manually intervene during this process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: If you experience an extended loss of connectivity after the scheduled maintenance window has concluded, please try power-cycling your modem/router before contacting support.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;We will be performing planned updates on our two Broadband Network Gateway (BNG) routers to ensure continued network stability and performance.&lt;/p&gt;
+&lt;h3 id=&#34;expected-impact&#34;&gt;Expected Impact&lt;/h3&gt;
+&lt;p&gt;To prevent downtime, these updates will be performed sequentially—meaning we will only update one router at a time. Because of this redundancy, the overall impact on service will be minimal.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brief Reconnection: If your equipment is actively connected to the router being updated, your session will briefly drop.&lt;/li&gt;
+&lt;li&gt;Automatic Failover: Your modem or router will automatically re-establish its PPPoE session with our secondary, active router.&lt;/li&gt;
+&lt;li&gt;No Action Needed: You do not need to make any configuration changes or manually intervene during this process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: If you experience an extended loss of connectivity after the scheduled maintenance window has concluded, please try power-cycling your modem/router before contacting support.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Cloudflare outage</title>
+        <link>https://status.eis.it/issues/2025-11-18-cloudflare-outage/</link>
+        <pubDate>Tue, 18 Nov 2025 12:00:00 +0100</pubDate>
+        <guid>https://status.eis.it/issues/2025-11-18-cloudflare-outage/</guid>
+        <category>2025-11-18T17:00:00.000&#43;01:00</category>
+        <description>&lt;p&gt;&lt;em&gt;A Cloudflare outage is affecting our web services making them unreachable.&lt;/em&gt;&lt;br&gt;
+&lt;br&gt;
+Cloudflare has investigated the issue and is deploying a fix, recovery is underway.&lt;br&gt;
+More info on their &lt;a href=&#34;https://www.cloudflarestatus.com/incidents/8gmgl950y3h7&#34;&gt;statuspage.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We will advise once the issue has been resolved.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;update-1544-cet-18112025&#34;&gt;UPDATE 15:44 CET 18/11/2025:&lt;/h4&gt;
+&lt;p&gt;Services have started to come back online.&lt;br&gt;
+We are still keeping the situation monitored.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;update-1737-cet-18112025&#34;&gt;UPDATE 17:37 CET 18/11/2025:&lt;/h4&gt;
+&lt;p&gt;Services have been online for almost two hours.&lt;/p&gt;
+&lt;p&gt;We consider the outage resolved but will keep monitoring.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;A Cloudflare outage is affecting our web services making them unreachable.&lt;/em&gt;&lt;br&gt;
+&lt;br&gt;
+Cloudflare has investigated the issue and is deploying a fix, recovery is underway.&lt;br&gt;
+More info on their &lt;a href=&#34;https://www.cloudflarestatus.com/incidents/8gmgl950y3h7&#34;&gt;statuspage.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We will advise once the issue has been resolved.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;update-1544-cet-18112025&#34;&gt;UPDATE 15:44 CET 18/11/2025:&lt;/h4&gt;
+&lt;p&gt;Services have started to come back online.&lt;br&gt;
+We are still keeping the situation monitored.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;update-1737-cet-18112025&#34;&gt;UPDATE 17:37 CET 18/11/2025:&lt;/h4&gt;
+&lt;p&gt;Services have been online for almost two hours.&lt;/p&gt;
+&lt;p&gt;We consider the outage resolved but will keep monitoring.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Planned Network Maintenance in DC1</title>
+        <link>https://status.eis.it/issues/2025-05-06-planned-network-maintenance-in-dc1/</link>
+        <pubDate>Fri, 09 May 2025 22:00:00 +0000</pubDate>
+        <guid>https://status.eis.it/issues/2025-05-06-planned-network-maintenance-in-dc1/</guid>
+        <category>2025-05-09T23:56:00.000Z</category>
+        <description>&lt;h4 id=&#34;update-2356-cet&#34;&gt;UPDATE 23:56 CET&lt;/h4&gt;
+&lt;p&gt;The maintenance has been completed successfully.&lt;br&gt;
+We will be monitoring the infrastructure for any anomaly, if you notice anything out of the usual please reach out to us.&lt;/p&gt;
+&lt;p&gt;- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/p&gt;</description>
+        <content type="html">&lt;h4 id=&#34;update-2356-cet&#34;&gt;UPDATE 23:56 CET&lt;/h4&gt;
+&lt;p&gt;The maintenance has been completed successfully.&lt;br&gt;
+We will be monitoring the infrastructure for any anomaly, if you notice anything out of the usual please reach out to us.&lt;/p&gt;
+&lt;p&gt;- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -&lt;/p&gt;
+&lt;p&gt;Please be advised that we have scheduled essential maintenance to upgrade the network infrastructure in our Data Center 1 (DC1). This work is necessary to enhance performance and reliability.&lt;/p&gt;
+&lt;p&gt;The maintenance window is planned as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Start&lt;/strong&gt;: Friday, May 9th, 2025, at 22:00 CEST&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;End&lt;/strong&gt;: Saturday, May 10th, 2025, during the afternoon. (We will provide an update upon completion).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;impact-on-services&#34;&gt;Impact on Services:&lt;/h3&gt;
+&lt;p&gt;During this maintenance period, service availability will be affected as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Services Temporarily Unavailable: The following services hosted in DC1 will be unreachable for the duration of the maintenance:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wiki&lt;/li&gt;
+&lt;li&gt;Partner Portal&lt;/li&gt;
+&lt;li&gt;API&lt;/li&gt;
+&lt;li&gt;Website&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Services with Automatic Failover: The following services are designed to automatically failover to our Data Center 2 (DC2) and should continue operating without disruption for customers and partners:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SIP Trunk&lt;/li&gt;
+&lt;li&gt;Webex Calling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;action-required-for-seamless-failover&#34;&gt;Action Required for Seamless Failover:&lt;/h3&gt;
+&lt;p&gt;To ensure the automatic failover functions correctly for SIP Trunk and Webex Calling, we kindly request that you verify that all necessary DC2 IP addresses are included in your network whitelists. Please refer to &lt;a href=&#34;https://wiki.teameis.it/it/VoIP/Eis-Trunksip/Requisiti-Tecnici&#34;&gt;our documentation for the complete list.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.teameis.it/it/VoIP/Eis-Trunksip/Requisiti-Tecnici&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We apologize for any inconvenience this necessary maintenance may cause. Our team is available to clarify any doubts or answer any questions you may have.&lt;/p&gt;
+&lt;p&gt;Thank you for your understanding and cooperation.&lt;/p&gt;
+&lt;p&gt;Sincerely,&lt;/p&gt;
+&lt;p&gt;EIS NOC&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] DSS Reachability Issues</title>
+        <link>https://status.eis.it/issues/2025-02-17-dropped-traffic-due-to-transit-provider/</link>
+        <pubDate>Mon, 17 Feb 2025 15:00:00 +0000</pubDate>
+        <guid>https://status.eis.it/issues/2025-02-17-dropped-traffic-due-to-transit-provider/</guid>
+        <category>2025-02-17T15:15:00.000Z</category>
+        <description>&lt;p&gt;One of our transit providers had an outage that caused some reachability issues for a small portion of customers.&lt;br&gt;
+We immediately disconnected the affected transit provider and reachability went back to normal.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;One of our transit providers had an outage that caused some reachability issues for a small portion of customers.&lt;br&gt;
+We immediately disconnected the affected transit provider and reachability went back to normal.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] SIP Server Urgent Maintenance</title>
+        <link>https://status.eis.it/issues/2025-01-27-sip-server-urgent-maintenance/</link>
+        <pubDate>Mon, 27 Jan 2025 23:30:00 +0000</pubDate>
+        <guid>https://status.eis.it/issues/2025-01-27-sip-server-urgent-maintenance/</guid>
+        <category>2025-01-28T01:00:00.000Z</category>
+        <description>&lt;p&gt;&lt;em&gt;Tonight we will perform an urgent maintenace on the SIP Server to fix internal call routing for EIS for Carrier customers and to increase the antiflood limits to accomodate higher traffic customers.&lt;/em&gt;&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Tonight we will perform an urgent maintenace on the SIP Server to fix internal call routing for EIS for Carrier customers and to increase the antiflood limits to accomodate higher traffic customers.&lt;/em&gt;&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] DSS Call Routing Errors</title>
+        <link>https://status.eis.it/issues/2025-01-09-dss-call-routing-errors/</link>
+        <pubDate>Wed, 08 Jan 2025 06:02:18 +0000</pubDate>
+        <guid>https://status.eis.it/issues/2025-01-09-dss-call-routing-errors/</guid>
+        <category>2025-01-08T08:05:18.848Z</category>
+        <description>&lt;p&gt;Call routing for all DSS services was broken this morning at 7:02 AM for SIP Trunks and Webex Calling.&lt;br&gt;
+&lt;br&gt;
+We have since identified the issue and have deployed a fix.&lt;br&gt;
+&lt;br&gt;
+As of 9:05 AM calls are being correctly routed but we are keeping the services monitored.&lt;/p&gt;
+&lt;h2 id=&#34;post-mortem&#34;&gt;P﻿ost Mortem&lt;/h2&gt;
+&lt;h4 id=&#34;affected-services&#34;&gt;&lt;strong&gt;Affected Services:&lt;/strong&gt;&lt;/h4&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Service&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Impact&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;DSS&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;MAJOR&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;affected-products&#34;&gt;&lt;strong&gt;Affected Products:&lt;/strong&gt;&lt;/h4&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Product&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Impact&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;SIP Trunk&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;MAJOR&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Webex Calling&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;PARTIAL&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;start-date-of-incident&#34;&gt;&lt;strong&gt;Start Date of Incident:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;08/01/2025 07:02 CET&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;Call routing for all DSS services was broken this morning at 7:02 AM for SIP Trunks and Webex Calling.&lt;br&gt;
+&lt;br&gt;
+We have since identified the issue and have deployed a fix.&lt;br&gt;
+&lt;br&gt;
+As of 9:05 AM calls are being correctly routed but we are keeping the services monitored.&lt;/p&gt;
+&lt;h2 id=&#34;post-mortem&#34;&gt;P﻿ost Mortem&lt;/h2&gt;
+&lt;h4 id=&#34;affected-services&#34;&gt;&lt;strong&gt;Affected Services:&lt;/strong&gt;&lt;/h4&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Service&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Impact&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;DSS&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;MAJOR&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;affected-products&#34;&gt;&lt;strong&gt;Affected Products:&lt;/strong&gt;&lt;/h4&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Product&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Impact&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;SIP Trunk&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;MAJOR&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Webex Calling&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;PARTIAL&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;start-date-of-incident&#34;&gt;&lt;strong&gt;Start Date of Incident:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;08/01/2025 07:02 CET&lt;/p&gt;
+&lt;h4 id=&#34;resolution-date-of-incident&#34;&gt;&lt;strong&gt;Resolution Date of Incident:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;08/01/2025 09:05 CET&lt;/p&gt;
+&lt;h4 id=&#34;summary-of-incident&#34;&gt;&lt;strong&gt;Summary of Incident:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Calls were not being correctly routed by the platform causing errors for both inbound and outbound calls.&lt;/p&gt;
+&lt;p&gt;The cause was a bug in a specific software version of the RTP Server that caused an OOM error.&lt;/p&gt;
+&lt;h4 id=&#34;mitigation-steps&#34;&gt;&lt;strong&gt;Mitigation Steps:&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Restarted the affected services&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;resolution-steps&#34;&gt;&lt;strong&gt;Resolution Steps:&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Update the RTP Server to permanently fix the issue&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;action-items&#34;&gt;&lt;strong&gt;Action Items:&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve our alerting system so that in the future we can take proactive action in similar cases&lt;/li&gt;
+&lt;li&gt;Change SIP Server responses to SIP OPTION so that in similar cases customer endpoints will be able to correctly fail-over to the secondary node&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Planned Maintenance to BNG",
+  "body": "\u003cp\u003eWe will be performing planned updates on our two Broadband Network Gateway (BNG) routers to ensure continued network stability and performance.\u003c/p\u003e\n\u003ch3 id=\"expected-impact\"\u003eExpected Impact\u003c/h3\u003e\n\u003cp\u003eTo prevent downtime, these updates will be performed sequentially—meaning we will only update one router at a time. Because of this redundancy, the overall impact on service will be minimal.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eBrief Reconnection: If your equipment is actively connected to the router being updated, your session will briefly drop.\u003c/li\u003e\n\u003cli\u003eAutomatic Failover: Your modem or router will automatically re-establish its PPPoE session with our secondary, active router.\u003c/li\u003e\n\u003cli\u003eNo Action Needed: You do not need to make any configuration changes or manually intervene during this process.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003eNote: If you experience an extended loss of connectivity after the scheduled maintenance window has concluded, please try power-cycling your modem/router before contacting support.\u003c/p\u003e\n\u003c/blockquote\u003e\n",
+  "createdAt": "2026-03-25 23:00:00 +0100 CET",
+  "lastMod": "2026-03-30 17:29:02 +0200 CEST",
+  "permalink": "https://status.eis.it/issues/2026-03-25-planned-maintenance-to-bng/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": true,
+  "resolvedAt": "2026-03-26T02:00:00.000+01:00",
+  "affected": ["circuits"],
+  "filename": "2026-03-25-planned-maintenance-to-bng.md"
+}
