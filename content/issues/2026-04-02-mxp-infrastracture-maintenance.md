@@ -2,7 +2,7 @@
 section: issue
 title: MXP Infrastracture maintenance
 date: 2026-04-02T21:30:00.000+02:00
-resolved: false
+resolved: true
 draft: false
 informational: true
 pin: false
