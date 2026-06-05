@@ -5,7 +5,7 @@ date: 2026-06-08T23:00:00.000+02:00
 resolved: false
 draft: false
 informational: true
-pin: false
+pin: true
 resolvedWhen: 2026-06-09T01:00:00.000+02:00
 affected:
   - sip-trunk
